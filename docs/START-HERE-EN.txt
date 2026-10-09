@@ -1,0 +1,34 @@
+CLIENTFLOW MINI v1.0 — QUICK START
+================================
+
+WHAT IT DOES
+ClientFlow Mini is a lightweight, offline-first client follow-up and quote tracker for freelancers and small businesses.
+
+GETTING STARTED
+1. Open ClientFlow-Mini.html in a modern browser (Chrome, Edge, Firefox or Safari).
+2. Open Settings & backup and enter your business information.
+3. Select + Add client to enter an opportunity and its next follow-up date.
+4. Open Quotes to create an itemized quote. Select Print / Save PDF, then use your browser's "Save as PDF" print destination.
+5. For sample records, open Settings & backup and choose Load sample data. WARNING: this will replace your existing local data after confirmation.
+
+INCLUDED FEATURES
+- Due-today and overdue client follow-up dashboard
+- Client details, stages, estimated deal values, next steps, notes
+- Search and pipeline filters
+- Follow-up email drafts opened in your default mail application
+- Itemized quote builder with PDF printing
+- CSV client import/export, JSON backup/restore
+- USD, EUR, GBP, CAD and AUD display options
+- Mobile-friendly layout
+
+STORAGE & LIMITATIONS
+This application stores data in YOUR BROWSER'S LOCAL STORAGE, not on a hosted server. Data does not automatically sync between devices or browsers, and is not encrypted by the application. Regularly download JSON backups. Do not store passwords or highly sensitive information.
+
+The application does NOT connect to your inbox, send emails automatically, automatically detect missed leads, send background reminders, collect online payments or replace accounting software.
+
+Browser storage behavior for directly opened HTML files can vary. For the most consistent long-term use, host the single HTML file on your own HTTPS static website, open it at a stable URL, and keep regular backups. Switching between file and website origins will not automatically transfer saved data.
+
+HELPFUL TIP
+If your operating system opens the file in a text editor, right-click > Open with > your web browser.
+
+VERSION 1.0 — SMALL BUSINESS TOOL, NOT ENTERPRISE CRM

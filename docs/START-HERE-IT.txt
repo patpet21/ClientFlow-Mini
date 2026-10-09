@@ -1,0 +1,38 @@
+CLIENTFLOW MINI — VERSIONE 1.0
+========================================
+
+COS'È
+Un'applicazione offline in un singolo file HTML per freelance, micro-agenzie e piccole imprese. Gestisce clienti, scadenze dei follow-up, preventivi e bozze email.
+
+COME APRIRLA (WINDOWS / MAC)
+1. Apri il file ClientFlow-Mini.html con Chrome, Edge, Firefox o Safari.
+2. Vai su Settings & backup e inserisci i dati della tua attività.
+3. Premi Add client per registrare il primo cliente.
+4. Per provare l'app, vai su Settings & backup > Load sample data. Questa funzione SOSTITUISCE i dati correnti, dopo conferma.
+5. In Quotes, crea un preventivo. Premi Print / Save PDF e scegli “Save as PDF” dalla finestra di stampa del browser.
+
+FUNZIONI INCLUSE
+- Dashboard con clienti da ricontattare oggi o in ritardo.
+- Schede cliente con stato, valore stimato, data prossimo contatto e note.
+- Ricerca e filtri per stato e scadenza.
+- Bozza di follow-up precompilata nella tua app di posta (NON invio automatico).
+- Preventivi con righe, quantità, tariffe e stampa/salvataggio PDF.
+- Importazione ed esportazione CSV delle schede cliente.
+- Esportazione/ripristino di backup JSON.
+- Opzioni valute USD/EUR/GBP/CAD/AUD.
+- Layout mobile.
+
+INFORMAZIONI IMPORTANTI
+- Non serve account, server o installazione.
+- I dati sono memorizzati LOCALMENTE nello storage del browser: non vengono sincronizzati fra dispositivi e non sono cifrati dal prodotto.
+- Non usare il prodotto come cassaforte di password, dati sanitari o informazioni molto sensibili.
+- NON monitora direttamente Gmail o Outlook, NON legge la posta, NON invia notifiche background o messaggi automatici, NON dispone di pagamenti online o contabilità.
+- Fai un backup da Settings & backup regolarmente, soprattutto prima di cancellare cronologia o dati del browser, cambiare PC o aprire il file in un browser diverso.
+- Il comportamento della persistenza di file HTML aperti direttamente può variare fra i browser. Per la massima affidabilità, pubblica il file statico su un host HTTPS (Netlify, Cloudflare Pages ecc.) e accedici sempre dal medesimo indirizzo; i dati restano comunque localmente nel browser.
+- Se cambi URL/dominio/posizione file, i dati del browser potrebbero non essere disponibili automaticamente: usa esportazione e ripristino backup.
+
+QUICK DEMO
+Se vuoi vedere subito l'app con record fittizi: Settings & backup > Load sample data.
+
+PRODOTTO E LIMITI COMMERCIALI
+La versione 1.0 è un MVP desktop/mobile offline. È adatta per test e prime vendite sperimentali del prodotto digitale, non è una SaaS, un CRM con sincronizzazione, né un software pronto per grandi volumi. Prima della distribuzione professionale verifica le tue condizioni di vendita, privacy e assistenza.

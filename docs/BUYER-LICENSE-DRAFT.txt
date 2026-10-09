@@ -1,0 +1,9 @@
+CLIENTFLOW MINI — SUGGESTED SINGLE-USER LICENSE (DRAFT)
+
+This licensing text is a suggested starting point for the seller to review and modify before any commercial distribution. It is NOT legal advice and does not itself establish an agreement unless adopted as part of the seller's sales terms.
+
+Upon purchase, the buyer is granted a non-exclusive license to use one copy of ClientFlow Mini for their own business operations. The buyer may use the tool in their business but may not redistribute, resell, sublicense, or publish the original files as a competing product.
+
+The software is supplied as-is, without guarantees of uninterrupted operation, revenue, secure storage, interoperability, or fitness for a particular purpose, subject to any non-waivable consumer protection rights.
+
+The software stores data in the buyer's own browser. The buyer is responsible for appropriate backups and compliant handling of personal information. The software does not provide a secure repository for passwords or sensitive information.
