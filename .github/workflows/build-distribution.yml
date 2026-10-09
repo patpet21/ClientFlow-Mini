@@ -1,0 +1,37 @@
+name: Build ClientFlow Mini distribution
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ClientFlow-Mini.html'
+      - 'docs/**'
+      - 'scripts/**'
+      - '.github/workflows/build-distribution.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install screenshot tools
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Capture demo screenshots
+        run: python scripts/capture_previews.py
+      - name: Package customer and seller downloads
+        run: python scripts/build_packs.py
+      - name: Commit generated images and ZIP archives
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.png dist/*.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "build: refresh demo screenshots and distribution archives [skip ci]"
+            git push
+          fi
